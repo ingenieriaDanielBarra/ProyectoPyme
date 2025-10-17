@@ -44,7 +44,7 @@ function Header() {
         </nav>
 
         {/* Botón desktop */}
-        <button onClick={() => document.getElementById("contact").scrollIntoView({behavior: "smooth"})} className="hidden md:inline-block border border-white text-white px-4 py-2 rounded-lg hover:bg-white hover:text-gray-900 transition duration-300">
+        <button onClick={() => document.getElementById("contact").scrollIntoView({behavior: "smooth"})} className="hidden md:inline-block border border-white text-white px-4 py-2  hover:bg-white hover:text-gray-900 transition duration-700">
           Contáctanos
         </button>
 

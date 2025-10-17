@@ -57,14 +57,14 @@ return (
     
     ))}
 </div>
-<a href=""
+{/* <a href=""
    target="_blank"
    rel="noopener noreferrer"
    className="inline-block mt-10 bg-blue-500 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-600 transition duration-300"
    data-aos="fade-up"
 >
     Solicitar cotización
-</a>
+</a> */}
    
 </section>
 );

@@ -4,12 +4,10 @@ import axios from 'axios';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
-
 function ContactForm() {
 
     useEffect(() => {
-          AOS.init({ duration: 2000, once: false });
+          AOS.init({ duration: 1000, once: false });
       }, []);
 
 
@@ -21,7 +19,8 @@ function ContactForm() {
     mensaje: '',
   });
   
-  const [errores, setErrores] = useState({});
+  
+  const [errores,      setErrores] = useState({});
   const [mensajeExito, setMensajeExito] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -61,7 +60,6 @@ function ContactForm() {
   };
 
 
-
   const handleChange = (e) => {
       const {name, value} = e.target;
       setFormData({ ...formData,[name]: value});
@@ -74,7 +72,7 @@ function ContactForm() {
       return; // Detiene el envio si hay errores
     }
 
-    setIsSubmitting(true); // Activa el cargadoir de carga
+    setIsSubmitting(true); // Activa el cargador de carga
     
     try {
       const response = await axios.post('http://localhost:5000/contacto', formData);
@@ -245,5 +243,5 @@ function ContactForm() {
         </div>
       </section>
     );
-  }
-  export default ContactForm;
+}
+export default ContactForm;
