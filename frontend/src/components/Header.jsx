@@ -28,6 +28,7 @@ function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 text-white">
         {/* Logo */}
         <h1 className="text-2xl font-bold text-slate-400">DB Soluciones Digitales</h1>
+        {/* <img className="text-2xl font-bold text-slate-200" src="/images/DBO.png" alt="mi logo" /> */}
 
         {/* Menú Desktop */}
         <nav className="hidden md:flex gap-12 items-center">

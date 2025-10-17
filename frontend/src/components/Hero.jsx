@@ -13,7 +13,7 @@ function Hero(){
        <section className="relative w-full h-screen flex items-center justify-center text-center text-white overflow-hidden">
                 {/* Imagen con animación */}
                 <img
-                    src="/images/pyme.jpeg"
+                    src="/images/Fondo.jpg"
                     alt="Hero"
                     className="absolute inset-0 w-full h-full object-cover"
                     data-aos="zoom-in"
