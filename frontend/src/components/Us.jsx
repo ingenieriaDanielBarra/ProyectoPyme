@@ -36,7 +36,7 @@ function Us(){
         <section id="us" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20">
             <div className="max-w-6xl mx-auto px-6 text-center">
                
-               <h2 className="text-4xl font-thin text-slate-800 mb-12" data-aos="fade-up">
+               <h2 className="text-6xl font-thin text-slate-400 mb-12" data-aos="fade-up">
                 Nosotros
                 </h2> 
 
@@ -44,13 +44,13 @@ function Us(){
                     {us.map((us, index) => (
                         <div 
                          key={index} 
-                         className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-2"
+                         className="bg-gradient-to-br from-indigo-800/80 to-slate-900/70 rounded-1xl shadow-lg p-4"
                          data-aos='fade-up'
                          data-aos-delay={us.delay}
                          >
                            {us.icon} 
-                            <h3 className="text-black text-xl font-semibold mb-1">{us.title}</h3>
-                            <p className="text-gray-600 leading-relaxed">{us.description}</p>
+                            <h3 className="text-xl font-semibold text-indigo-400 mb-2">{us.title}</h3>
+                            <p className="text-slate-300">{us.description}</p>
                         </div>
                     ))}
                 </div>

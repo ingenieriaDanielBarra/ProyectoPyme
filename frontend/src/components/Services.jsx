@@ -38,7 +38,7 @@ function Services(){
 
 return (
 <section id="services" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20 text-center">
-    <h2 className="text-4xl font-thin mb-12 text-gray-800" data-aos="fade-up">
+    <h2 className="text-4xl font-thin mb-12 text-slate-400" data-aos="fade-up">
         Servicios que ofrecemos
     </h2>
 
@@ -46,7 +46,7 @@ return (
     {servicios.map((servicio, index) =>(
         <div
         key={index}
-        className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow duration-300"
+        className="bg-gradient-to-br from-indigo-800/80 to-slate-900/70 shadow-lg rounded-xl p-6 hover:shadow-xl transition-shadow duration-300"
         data-aos={servicio.anim}
         data-aos-delay={index * 200} // retrasa cada tarjeta para efecto escalonado
         >

@@ -107,7 +107,7 @@ function ContactForm() {
   return (
       <section id="contact" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20">
         <div className="max-w-4xl mx-auto px-6" data-aos="zoom-in">
-          <h3 className="text-4xl font-extralight text-center text-slate-500 mb-10">
+          <h3 className="text-4xl font-extralight text-center text-slate-400 mb-10">
             ¡Hablemos!
           </h3>
 
@@ -117,7 +117,7 @@ function ContactForm() {
           </div>
           )}
 
-          <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-xl p-10 space-y-6" data-aos="fade-down">
+          <form onSubmit={handleSubmit} className="bg-gradient-to-br from-slate-700/80 to-slate-900/70 rounded-1xl shadow-xl p-10 space-y-6" data-aos="fade-down">
             {/* Nombre y Teléfono */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
