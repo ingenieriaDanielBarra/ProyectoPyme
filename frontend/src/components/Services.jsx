@@ -37,7 +37,7 @@ function Services(){
     ];
 
 return (
-<section id="services" className="py-16 bg-gray-100 text-center">
+<section id="services" className="bg-gradient-to-r from-indigo-600 via-blue-900 to-indigo-800 text-white py-20 text-center">
     <h2 className="text-4xl font-thin mb-12 text-gray-800" data-aos="fade-up">
         Servicios que ofrecemos
     </h2>
