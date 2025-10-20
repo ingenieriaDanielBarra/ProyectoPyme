@@ -28,7 +28,7 @@ function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 text-white">
         {/* Logo */}
         {/* <h1 className="text-2xl font-bold text-slate-400">DB Soluciones Digitales</h1> */}
-        <img src="/images/DBO2.jpeg" 
+        <img src="/images/DBO.png" 
          alt="DBO Soluciones Digitales" 
          className="h-12 w-auto md:h-14 lg:h-16 object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
          />
