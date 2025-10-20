@@ -105,7 +105,7 @@ function ContactForm() {
   };
   
   return (
-      <section id="contact" className="bg-gradient-to-r from-indigo-600 via-blue-900 to-indigo-800 text-white py-20">
+      <section id="contact" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20">
         <div className="max-w-4xl mx-auto px-6" data-aos="zoom-in">
           <h3 className="text-4xl font-extralight text-center text-slate-500 mb-10">
             ¡Hablemos!

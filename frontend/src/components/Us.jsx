@@ -33,7 +33,7 @@ function Us(){
         },
     ];
     return(
-        <section id="us" className="bg-gradient-to-r from-indigo-600 via-blue-900 to-indigo-800 text-white py-20">
+        <section id="us" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20">
             <div className="max-w-6xl mx-auto px-6 text-center">
                
                <h2 className="text-4xl font-thin text-slate-800 mb-12" data-aos="fade-up">
