@@ -129,7 +129,7 @@ function ContactForm() {
                   id="nombre"
                   name="nombre"
                   placeholder="Tu nombre *"
-                  className="w-full px-4 py-3 border bg-white border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-black"
+                  className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.nombre}
                   onChange={handleChange}
                 />
@@ -144,7 +144,7 @@ function ContactForm() {
                   id="telefono"
                   name="telefono"
                   placeholder="Tu número *"
-                  className="w-full px-4 py-3 border bg-white border-gray-300 shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-black"
+                  className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300 shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.telefono}
                   onChange={handleChange}
                 />
@@ -163,7 +163,7 @@ function ContactForm() {
                   id="correo"
                   name="correo"
                   placeholder="correo@ejemplo.com *"
-                  className="w-full px-4 py-3 border bg-white border-gray-300 shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-black"
+                  className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300 shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.correo}
                   onChange={handleChange}
                 />
@@ -178,7 +178,7 @@ function ContactForm() {
                   id="ciudad"
                   name="ciudad"
                   placeholder="Tu ciudad *"
-                  className="w-full px-4 py-3 border bg-white border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-black"
+                  className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.ciudad}
                   onChange={handleChange}
                 />
@@ -196,7 +196,7 @@ function ContactForm() {
                 name="mensaje"
                 rows="5"
                 placeholder="Escribe tu mensaje aquí... *"
-                className="w-full px-4 py-3 border bg-white border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-black"
+                className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                 value={formData.mensaje}
                 onChange={handleChange}
               ></textarea>
