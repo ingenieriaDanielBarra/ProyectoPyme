@@ -23,7 +23,7 @@ function Hero(){
            
              <h2 className="text-7xl font-bold drop-shadow-lg" data-aos="fade-up">Crea tu sitio web profesional</h2>
             
-            <p className="mt-4 text-lg text-gray-50 drop-shadow" data-aos="fade-up" data-aos-delay="300">Transformamos tu idea en un sitio web moderno, atractivo y diseñado para crecer.</p>
+            <p className="mt-4 text-lg text-gray-50 drop-shadow mb-9" data-aos="fade-up" data-aos-delay="300">Transformamos tu idea en un sitio web moderno, atractivo y diseñado para crecer.</p>
             
             <button onClick={() => document.getElementById("contact").scrollIntoView({behavior:"smooth"})} 
                 className="bg-indigo-700 text-white px-3 py-3 font-semibold hover:bg-indigo-500 transition duration-700" 
