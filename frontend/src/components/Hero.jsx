@@ -21,7 +21,7 @@ function Hero(){
                 />
             <div className="container mx-auto px-4">
            
-             <h2 className="text-7xl font-bold drop-shadow-lg" data-aos="fade-up">Crea tu sitio web profesional</h2>
+             <h2 className="text-6xl font-bold drop-shadow-lg" data-aos="fade-up">Crea tu sitio web profesional</h2>
             
             <p className="mt-4 text-lg text-gray-50 drop-shadow mb-9" data-aos="fade-up" data-aos-delay="300">Transformamos tu idea en un sitio web moderno, atractivo y diseñado para crecer.</p>
             
