@@ -207,7 +207,7 @@ function ContactForm() {
             <div className="text-center">
               <button
                 type="submit"
-                className="bg-slate-400 text-white px-8 py-3 text-lg font-semibold hover:bg-slate-300 transition-all shadow-md hover:shadow-lg"
+                className="bg-gradient-to-br from-indigo-800/80 to-slate-900/70 text-white px-8 py-3 text-lg font-semibold hover:bg-slate-300 transition-all shadow-md hover:shadow-lg"
                 disabled={isSubmitting} // Desactiva el botón mientras se envían los datos
               >
               {isSubmitting ? (
