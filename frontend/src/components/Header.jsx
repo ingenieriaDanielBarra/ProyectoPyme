@@ -65,7 +65,11 @@ function Header() {
           }`}
       >
         <div className="flex justify-between items-center px-4 py-4 border-b border-gray-700">
-          <h1 className="text-2xl font-bold">DB Soluciones Digitales</h1>
+          {/* <h1 className="text-2xl font-bold">DB Soluciones Digitales</h1> */}
+          <img src="/images/DBO.png" 
+         alt="DBO Soluciones Digitales" 
+         className="h-12 w-auto md:h-14 lg:h-16 object-contain cursor-pointer transition-transform duration-300 hover:scale-105"
+         />
           <button onClick={() => setIsOpen(false)}>
             <X size={28} />
           </button>
