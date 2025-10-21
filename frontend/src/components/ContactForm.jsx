@@ -121,7 +121,7 @@ function ContactForm() {
             {/* Nombre y Teléfono */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="name" className="block text-sm font-semibold text-gray-400 mb-2">
                   Nombre
                 </label>
                 <input
@@ -136,7 +136,7 @@ function ContactForm() {
                 {errores.nombre && <p className="text-red-500 text-sm mt-1">{errores.nombre}</p>}
               </div>
               <div>
-                <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="phone" className="block text-sm font-semibold text-gray-400 mb-2">
                   Teléfono
                 </label>
                 <input
@@ -155,7 +155,7 @@ function ContactForm() {
             {/* Correo y Ciudad */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="email" className="block text-sm font-semibold text-gray-400 mb-2">
                   Correo electrónico
                 </label>
                 <input
@@ -170,7 +170,7 @@ function ContactForm() {
                 {errores.correo && <p className="text-red-500 text-sm mt-1">{errores.correo}</p>}
               </div>
               <div>
-                <label htmlFor="ciudad" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="ciudad" className="block text-sm font-semibold text-gray-400 mb-2">
                   Ciudad
                 </label>
                 <input
@@ -188,7 +188,7 @@ function ContactForm() {
   
             {/* Mensaje */}
             <div>
-              <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+              <label htmlFor="message" className="block text-sm font-semibold text-gray-400 mb-2">
                 Mensaje
               </label>
               <textarea
