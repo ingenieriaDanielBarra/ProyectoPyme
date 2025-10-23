@@ -128,7 +128,7 @@ function ContactForm() {
                   type="text"
                   id="nombre"
                   name="nombre"
-                  placeholder="Tu nombre *"
+                  placeholder="Nombre *"
                   className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.nombre}
                   onChange={handleChange}
@@ -143,7 +143,7 @@ function ContactForm() {
                   type="tel"
                   id="telefono"
                   name="telefono"
-                  placeholder="Tu número *"
+                  placeholder="Fono *"
                   className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300 shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.telefono}
                   onChange={handleChange}
@@ -177,7 +177,7 @@ function ContactForm() {
                   type="text"
                   id="ciudad"
                   name="ciudad"
-                  placeholder="Tu ciudad *"
+                  placeholder="Ciudad *"
                   className="w-full px-4 py-3 border bg-gradient-to-br from-indigo-800/80 to-slate-900/70 border-gray-300  shadow-xl focus:ring-2 focus:ring-slate-300 focus:outline-none text-white"
                   value={formData.ciudad}
                   onChange={handleChange}
