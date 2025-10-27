@@ -16,6 +16,11 @@ function Projects(){
          imagen : "/images/Proyecto1.jpeg",
          link: "https://www.pselizabethbarra.cl/"
         },
+        {titulo: "Sitio Psicologia online",
+            descripcion: "Sitio web con reservas y envio automatico de correos.", 
+            imagen : "/images/Proyecto1.jpeg",
+            link: "https://www.pselizabethbarra.cl/"
+        }
         
     ];
 
