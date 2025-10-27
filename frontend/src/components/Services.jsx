@@ -36,13 +36,13 @@ function Services(){
         }
     ];
 
-return (
-<section id="services" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20 text-center">
+ return (
+ <section id="services" className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] text-white py-20 text-center">
     <h2 className="text-4xl font-thin mb-12 text-slate-400" data-aos="fade-up">
         Servicios que ofrecemos
     </h2>
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 md:px-12">
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 md:px-12">
     {servicios.map((servicio, index) =>(
         <div
         key={index}
@@ -56,18 +56,18 @@ return (
         </div>
     
     ))}
-</div>
-{/* <a href=""
+ </div>
+ {/* <a href=""
    target="_blank"
    rel="noopener noreferrer"
    className="inline-block mt-10 bg-blue-500 text-white py-3 px-6 rounded-lg font-medium hover:bg-blue-600 transition duration-300"
    data-aos="fade-up"
->
+ >
     Solicitar cotización
-</a> */}
+ </a> */}
    
-</section>
-);
+ </section>
+ );
 
 };
 

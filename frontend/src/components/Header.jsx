@@ -16,6 +16,7 @@ function Header() {
   const navItems = [
     { text: "Nosotros", href: "#us" },
     { text: "Servicios", href: "#services" },
+    { text: "Mis proyectos", href: "#proyect"},
     { text: "Contacto", href: "#contact" },
   ];
 
