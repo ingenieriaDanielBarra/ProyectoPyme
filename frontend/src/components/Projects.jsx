@@ -1,6 +1,12 @@
 import { useState,useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+//importaciones de swiper
+import {Swiper,SwiperSlide} from "swiper/react";
+import {Navigation, Pagination, Autoplay} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 
 function Projects(){
@@ -13,7 +19,12 @@ function Projects(){
     const proyectos = [
         {titulo: "Sitio Psicologia online",
          descripcion: "Sitio web con reservas y envio automatico de correos.", 
-         imagen : "/images/Proyecto1.jpeg",
+         imagenes: [
+        "/images/Proyecto1.jpeg",
+        "/images/Proyecto2.jpeg",
+        "/images/Proyecto3.jpeg",
+        "/images/Proyecto4.jpeg",
+         ],
          link: "https://www.pselizabethbarra.cl/"
         },
    ];
@@ -23,6 +34,7 @@ function Projects(){
          <h2 className="text-4xl font-thin mb-12 text-slate-400" data-aos="fade-up">
          Proyectos
         </h2>
+       
         {proyectos.map((proyecto, index) => (
         <div 
         key={index}
@@ -34,12 +46,36 @@ function Projects(){
         <h3 className="text-xl font-semibold text-gray-700 mb-3">{proyecto.titulo}</h3>
         <p className="text-gray-500 text-sm">{proyecto.descripcion}</p>
         
-        <img 
-        src={proyecto.imagen} 
-        alt={proyecto.titulo} 
-        className="w-full max-w-sm h-auto mx-auto object-contain rounded-lg mb-4"
-        />
-        {proyecto.link}
+        {/* 🔹 Carrusel de imágenes */}
+          
+        <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            navigation
+            pagination={{clickable: true}}
+            autoplay={{delay: 2500}}
+            loop= {true}
+            spaceBetween={20}
+            slidesPerView={1}
+            className="rounded-xl"
+        >
+            {
+             proyecto.imagenes.map((img, i) => (
+                <SwiperSlide key={i}>
+                    <img src={img} 
+                     alt={`${proyecto.titulo} - ${i + 1}`} 
+                     className="w-full h-64 object-contain rounded-lg mx-auto"
+                     />
+                </SwiperSlide>
+             ))}
+
+        </Swiper>
+        <a href={proyecto.link}
+           target="_blank"
+           rel="noopener noreferrer"
+           className="mt-6 inline-block text-indigo-300 hover:text-indigo-400 transition"
+        >
+            ver proyecto
+        </a>
         </div>
         ))
         }
