@@ -52,7 +52,7 @@ function Projects(){
             modules={[Navigation, Pagination, Autoplay]}
             navigation
             pagination={{clickable: true}}
-            autoplay={{delay: 2500}}
+            autoplay={{delay: 3000}}
             loop= {true}
             spaceBetween={20}
             slidesPerView={1}
@@ -63,7 +63,7 @@ function Projects(){
                 <SwiperSlide key={i}>
                     <img src={img} 
                      alt={`${proyecto.titulo} - ${i + 1}`} 
-                     className="w-full h-64 object-contain rounded-lg mx-auto"
+                     className="w-full h-64 object-contain rounded-lg mx-auto mt-5"
                      />
                 </SwiperSlide>
              ))}
