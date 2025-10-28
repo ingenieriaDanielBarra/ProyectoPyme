@@ -38,7 +38,7 @@ function Projects(){
         {proyectos.map((proyecto, index) => (
         <div 
         key={index}
-        className="bg-gradient-to-br from-indigo-800/80 to-slate-900/70 rounded-1xl shadow-lg p-4"
+        className="bg-gradient-to-r from-[#1a0b2e] via-[#24124b] to-[#1a1b64] py-20 text-center"
         data-aos='fade-up'
         data-aos-delay={index * 200}
         >
