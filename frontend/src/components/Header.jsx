@@ -61,7 +61,7 @@ function Header() {
 
       {/* Menú móvil tipo slide-in */}
       <div
-          className={`fixed top-0 left-0 h-full w-[280px] bg-slate-800/70 backdrop-blur-md text-white z-50 transform transition-transform duration-300 ${
+          className={`fixed top-0 left-0 h-full w-[280px] bg-gradient-to-r from-[#110d15] via-[#2b1a50] to-[#1a1b64] backdrop-blur-md text-white z-50 transform transition-transform duration-300 ${
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
       >
@@ -82,7 +82,7 @@ function Header() {
               key={text}
               href={href}
               onClick={() => setIsOpen(false)}
-              className="group px-6 py-4 text-lg font-medium border-b border-slate-600 hover:bg-slate-700 transition relative"
+              className="group px-6 py-4 text-lg font-medium border-b border-slate-600 hover:bg-gradient-to-r from-[#231930] via-[#321968] to-[#1a1b64] transition relative"
             >
               <span className="font-extralight hover:text-slate-300">{text}</span>
               <span className="absolute bottom-2 left-6 w-0 h-0.5 bg-slate-400 group-hover:w-4/5 transition-all duration-300"></span>
